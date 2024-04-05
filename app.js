@@ -9,7 +9,9 @@ const PORT = process.env.PORT || 3000;
 const SECRET_KEY = 'your_secret_key';
 
 mongoose.set('strictQuery', false);
-mongoose.connect("mongodb://mongodb:27017/SocialDB");
+
+const uri =  "mongodb://root:<replace password>@localhost:27017";
+mongoose.connect(uri,{'dbName':'SocialDB'});
 
 const User = mongoose.model('User', { username: String, email: String, password: String });
 const Post = mongoose.model('Post', { userId: mongoose.Schema.Types.ObjectId, text: String });
