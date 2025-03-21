@@ -1,5 +1,7 @@
 
 # Social Media Dashboard 🖥️📱
+ ![Social-Media-Dashboard](https://github.com/Willie-Conway/Social-Media-Dashboard/blob/9039d5412a31c0ff665ba80c06d42bdcf0235074/Screenshots/Social%20Media%20Dashboard.gif)
+
 
 Welcome to the **Social Media Dashboard**! This project is a simple web application built with **Node.js**, **Express**, **MongoDB**, and optionally **React** for the frontend. It allows users to register, login, and interact with posts while managing their sessions securely.
 
